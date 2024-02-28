@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/classes.css" />
+    <link rel="stylesheet" href="assets/css/elements.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="Close menu"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false">
+          <a href="#home">LOGO</a>
+        </h1>
+
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false">
+            <li><a href="#intro">intro</a></li>
+            <li><a href="#grid-one">grid-one</a></li>
+            <!-- <li><a href="#grid-one">grid-onde</a></li> -->
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#grid-two">grid-two</a></li>
+            <li><a href="#pricing">pricing</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Top 10 raças de cachorro mais inteligentes; veja ranking</h2>
+
+          <p>
+            O cão não apenas é o melhor amigo do homem, como pode ser também um
+            superinteligente. É possível perceber isso no dia a dia,
+            principalmente quando o pet aprende novas habilidades ou truques.
+            Mas, afinal, quais as raças de cachorro mais inteligentes?
+          </p>
+        </div>
+        <div class="intro-img">
+          <img
+            src="assets/img/javascript-not-optimized.svg"
+            alt="logo de html css e js."
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>Pastor alemão</h2>
+        <p>
+          Não há um consenso exato sobre os especialistas ou os tutores de cães
+          sobre essa questão. Mesmo assim, algumas pesquisas nesse sentido se
+          destacam. É o caso do levantamento feito pelo psicólogo Stanley Coren
+          em seu livro “The Intelligence of Dogs”, no qual ele entrevistou mais
+          de 200 adestradores sobre o assunto.
+        </p>
+        <p>
+          Vale ressaltar que a questão sobre a inteligência dos cães é relativa.
+          Pode ser considerado, por exemplo, que um cachorro de fácil
+          adestramento é mais inteligente, de certa forma, todavia ele pode não
+          ter muita inteligência intuitiva quanto outros.
+        </p>
+        <p>
+          Nenhuma surpresa aqui também, né? Cachorro policial, cão guia,
+          assistente de socorro médico… são várias as funções incríveis que esse
+          animal pode cumprir, tanto por sua obediência quanto por sua
+          personalidade protetora. E ainda é excelente para terapia – não há
+          dúvida de que ele merece estar entre as raças de cachorro mais
+          inteligentes!
+        </p>
+      </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My grid</h2>
+        <p class="grid-description">uma breve descrição</p>
+
+        <div class="grid">
+          <article>
+            <h3>First</h3>
+            <p>
+              Apesar da cara e da fama de poucos amigos, o rottweiler pode ser
+              um amorzinho, especialmente com o seu tutor. Bastante confiável e
+              leal, ele é bem obediente a comandos e pode proteger sua família.
+            </p>
+          </article>
+          <article>
+            <h3>Another site</h3>
+            <p>
+              Em décimo lugar na lista, está o boiadeiro australiano. Apesar de
+              não ser uma raça tão conhecida, esse cão é bem alerta, explorador
+              e curioso. Por outro lado, também tem um lado emocional, sendo bem
+              apegado à família.
+            </p>
+          </article>
+          <article>
+            <h3>Third one</h3>
+            <p>
+              Em décimo lugar na lista, está o boiadeiro australiano. Apesar de
+              não ser uma raça tão conhecida, esse cão é bem alerta, explorador
+              e curioso. Por outro lado, também tem um lado emocional, sendo bem
+              apegado à família.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">uma breve descrição</p>
+
+        <div class="grid">
+          <div class="gallery-img">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1676762448102-9327b1678e0e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwODA0MDY1NA&ixlib=rb-4.0.3&q=80&w=360"
+              alt="random img from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://images.unsplash.com/photo-1707181498528-1d20e3af4f42?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwODA0MDkyMA&ixlib=rb-4.0.3&q=80&w=360"
+              alt="random img from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1671382015549-ddcf6130131f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwODA0MTAwNQ&ixlib=rb-4.0.3&q=80&w=360"
+              alt="random img from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360" alt="" />
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=2" alt="" />
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=3" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My grid</h2>
+        <p class="grid-description">uma breve descrição</p>
+
+        <div class="grid">
+          <article>
+            <h3>First</h3>
+            <p>
+              Apesar da cara e da fama de poucos amigos, o rottweiler pode ser
+              um amorzinho, especialmente com o seu tutor. Bastante confiável e
+              leal, ele é bem obediente a comandos e pode proteger sua família.
+            </p>
+          </article>
+          <article>
+            <h3>Another site</h3>
+            <p>
+              Em décimo lugar na lista, está o boiadeiro australiano. Apesar de
+              não ser uma raça tão conhecida, esse cão é bem alerta, explorador
+              e curioso. Por outro lado, também tem um lado emocional, sendo bem
+              apegado à família.
+            </p>
+          </article>
+          <article>
+            <h3>Third one</h3>
+            <p>
+              Em décimo lugar na lista, está o boiadeiro australiano. Apesar de
+              não ser uma raça tão conhecida, esse cão é bem alerta, explorador
+              e curioso. Por outro lado, também tem um lado emocional, sendo bem
+              apegado à família.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>Pricing</h2>
+        <p>
+          Não há um consenso exato sobre os especialistas ou os tutores de cães
+          sobre essa questão. Mesmo assim, algumas pesquisas nesse sentido se
+          destacam. É o caso do levantamento feito pelo psicólogo Stanley Coren
+          em seu livro “The Intelligence of Dogs”, no qual ele entrevistou mais
+          de 200 adestradores sobre o assunto.
+        </p>
+
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Pricing table
+            </caption>
+
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Testando</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Top 10 raças de cachorro mais inteligentes; veja ranking</h2>
+
+          <p>
+            O cão não apenas é o melhor amigo do homem, como pode ser também um
+            superinteligente. É possível perceber isso no dia a dia,
+            principalmente quando o pet aprende novas habilidades ou truques.
+            Mas, afinal, quais as raças de cachorro mais inteligentes?
+          </p>
+        </div>
+        <div class="intro-img">
+          <img
+            src="assets/img/javascript-not-optimized.svg"
+            alt="logo de html css e js."
+          />
+        </div>
+
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Contact me</legend>
+
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input type="text" name="first-name" id="first-name" placeholder="Your name">
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last name</label>
+              <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" placeholder="Your e-mail">
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+            </div>
+
+            <div class="form-group full-width">
+              <button type="submit">Send message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer" class="footer white-bg">
+      <p>Feito com <span class="heart">❤</span> por Andrei Elias</p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+  </body>
+</html>
